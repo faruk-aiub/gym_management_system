@@ -39,7 +39,7 @@
                     <li><a>ABOUT</a></li>
                     <li><a>GALLERY</a></li>
                     <li><a>CONTACT US</a></li>
-                    <li style="padding-top: 20px"><a href="ownerProfile.php"><button>Profile</button></a></li> 
+                    <li style="padding-top: 20px"><a href="../login.php"><button>Logout</button></a></li> 
                 </ul>   
             </div>
             

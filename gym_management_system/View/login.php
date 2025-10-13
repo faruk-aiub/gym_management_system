@@ -14,10 +14,10 @@
 
                 if (username === "" || password === "") {
                     alert("Please fill in both username and password.");
-                    return false; // stops form submission
+                    return false; 
                 }
 
-                return true; // allow submission
+                return true; 
             }
         </script>
     </head>
@@ -32,7 +32,7 @@
                 <form action="../Controller/authController.php" method="post" onsubmit="return validateLoginForm()">
                     <input type="text" id="username" name="username" placeholder="username"><br>
                     <input type="password" id="password" name="password" placeholder="password"><br>
-                    <span style="color:red"> <?php if(isset($_GET["Err"]) && $_GET["Err"] != "") { echo htmlspecialchars($_GET["Err"]); }?> <span>
+                    <span style="color:red"> <?php if(isset($_GET["Err"]) && $_GET["Err"] != "") { echo $_GET["Err"]; }?> <span>
                     <input type="submit" id="submit" name="loginSubmit" value="submit">
                 </form>
             </div>
