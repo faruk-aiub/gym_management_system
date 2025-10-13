@@ -20,7 +20,11 @@
         </header>
         <h1 style="text-align: center;">Hello Employee, Welcome!</h1> 
         <hr>
-        
+        <div class="dashboard-container">
+            <div class="action-buttons">
+                <a href="ownerViewUser.php" class="btn-manage-user">Manage User</a>
+            </div>
+        </div>
 
         <footer>
             <div id="footer_div">
